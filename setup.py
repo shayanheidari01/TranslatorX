@@ -7,7 +7,7 @@ with open("README.md", encoding="UTF-8") as f:
 
 setup(
     name = 'TranslatorX',
-    version = '1.0',
+    version = '1.2',
     author='Shayan Heidari',
     author_email = 'contact@shayanheidari.info',
     description = 'A Python package for translation that uses Google translator and also supports asynchronous programming!',
@@ -15,7 +15,7 @@ setup(
     long_description = readme,
     python_requires="~=3.7",
     long_description_content_type = 'text/markdown',
-    url = 'https://github.com/shayanheidari01/rubika',
+    url = 'https://github.com/shayanheidari01/TranslatorX',
     packages = find_packages(),
     install_requires = requirements,
     classifiers=[

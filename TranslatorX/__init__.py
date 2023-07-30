@@ -5,7 +5,7 @@ import html
 import re
 
 
-__version__ = '1.0'
+__version__ = '1.2'
 __author__ = 'Shayan Heidari'
 
 
