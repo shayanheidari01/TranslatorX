@@ -1,6 +1,7 @@
 ## TranslatorX
 
 > A Python package for translation that uses Google translator and also supports asynchronous programming!
+
 > Please star the GitHub repository to support me :)
 
 ### Simpale Example
