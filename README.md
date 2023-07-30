@@ -6,15 +6,10 @@
 
 ### Simpale Example
 ```python
-import asyncio
 import TranslatorX
 
 trans = TranslatorX.Translator()
-
-async def main():
-    print(trans.translator(text='hi', to_lang='fa'))
-
-asyncio.run(main())
+print(trans.translator(text='hi', to_lang='fa'))
 ```
 
 ### Async Support
