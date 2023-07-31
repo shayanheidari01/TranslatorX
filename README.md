@@ -9,7 +9,7 @@
 import TranslatorX
 
 trans = TranslatorX.Translator()
-print(trans.translator(text='hi', to_lang='fa'))
+print(trans.Translate(text='hi', to_lang='fa'))
 ```
 
 ### Async Support
@@ -20,7 +20,7 @@ import TranslatorX
 trans = TranslatorX.AsyncTranslator()
 
 async def main():
-    print(await trans.translator(text='hi', to_lang='fa'))
+    print(await trans.Translate(text='hi', to_lang='fa'))
 
 asyncio.run(main())
 ```
